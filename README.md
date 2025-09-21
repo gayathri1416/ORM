@@ -1,5 +1,5 @@
 # Ex02 Django ORM Web Application
-# Date: 21.09.2025
+# Date:
 # AIM
 To develop a Django application to store and retrieve data from a bank loan database using Object Relational Mapping(ORM).
 
@@ -11,14 +11,15 @@ Clone the problem from GitHub
 Create a new app in Django project
 
 ## STEP 3:
-```
+``` 
 admin.py 
 
 from django.contrib import admin
 from .models import CarInventory,CarInventoryAdmin
 admin.site.register(CarInventory,CarInventoryAdmin)
 
- models.py
+models.py
+ 
 from django.db import models
 from django.contrib import admin 
 
@@ -32,7 +33,6 @@ class CarInventory(models.Model):
 
 class CarInventoryAdmin(admin.ModelAdmin):
     list_display=('car_selling_no','brand','fuel_type','price','color','warranty')
-
 ```
 
 
@@ -42,6 +42,7 @@ Execute Django admin and create details for 10 books
 # PROGRAM
 # OUTPUT
 ![alt text](<Screenshot 2025-09-21 181919.png>)
+
 
 
 # RESULT
