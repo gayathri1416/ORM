@@ -11,6 +11,13 @@ Clone the problem from GitHub
 Create a new app in Django project
 
 ## STEP 3:
+Enter the code for admin.py and models.py
+
+## STEP 4:
+Execute Django admin and create details for 10 books
+
+# PROGRAM
+
 ``` 
 admin.py 
 
@@ -34,12 +41,6 @@ class CarInventory(models.Model):
 class CarInventoryAdmin(admin.ModelAdmin):
     list_display=('car_selling_no','brand','fuel_type','price','color','warranty')
 ```
-
-
-## STEP 4:
-Execute Django admin and create details for 10 books
-
-# PROGRAM
 # OUTPUT
 ![alt text](<Screenshot 2025-09-21 181919.png>)
 
