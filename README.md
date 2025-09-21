@@ -42,8 +42,8 @@ class CarInventoryAdmin(admin.ModelAdmin):
     list_display=('car_selling_no','brand','fuel_type','price','color','warranty')
 ```
 # OUTPUT
-![alt text](<Screenshot 2025-09-21 181919.png>)
 
+![alt text](<Screenshot 2025-09-21 191324.png>)
 
 
 # RESULT
